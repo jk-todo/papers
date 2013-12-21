@@ -1,0 +1,347 @@
+Information Storage and Management: about the Business Continuity
+
+Shujia Liu	liushujia@yahoo.com
+
+Abstract: This paper is about the definition, standard and plan of business continuity, and about the influence and
+management of business continuity, and the methods to backup information and recover. This paper focus on dealing with
+the disaster, and the future of business continuity.
+
+Key: business continuity, disaster prevention, flush, backup, recover, green storage
+
+1 Business Continuity
+
+Business Continuity is about the plan and implementation, it is a strategy to make sure that the product, marketing,
+finance, management and other important elements are ready for clients, suppliers, managers and users in every 
+conditions. Business Continuity is a concept that comes from the disaster recover. The activities inside the business
+continuity includes everyday management of the projects, system backup, control and support. Business continuity is a
+set of technology and operation, the goal of which is to ensure that the business will go smoothly under every 
+condition.
+
+The foundation of business continuity is a standard process to ensure the project development, strategy supplement,
+the plan will go on continuously no matter what unhappy things happen. All the system design, implement, supplement, and
+maintenance are needed to perform above this foundation, in order to make sure that the system has the ability to
+recover from disaster.
+
+Business Continuity is not an activity performs only when disaster happens, it is an activity that performs daily to
+maintain the equipments, recoverable and continuity. Business continuity is a protection, it points out the key elements
+of a company and the threatening elements, and comes out plans and methods to deal with these threatening elements, to
+make sure that all the key elements will perform correctly under every condition.
+
+Business continuity is likely to be mixed up with disaster recover, indeed they are different. Disaster recover is a
+strategy or tools to reduce the loss when machines become unavailable. Disaster recover is the foundation of business
+continuity, it is a subset of business continuity. The goal of business continuity is to reduce the time of disaster
+recover, and the ultimate goal of business continuity is to eliminate the time of disaster recover.
+
+2 The Standard Of Business Continuity
+
+ISO: in 2011, ISO delivered ISO/IEC 27031 -- “Information security -- Security techniques -- Guidelines for information
+and communication technology readiness for business continuity”, this standard is to provide guidance for information
+organization and communication of the management of business continuity. On May 15th, 2012, ISO delivered ISO 22301
+--“Societal security -- Business continuity management systems -- Requirements”.
+
+The Standard Console in England delivered BS 25999, it is a standard of business continuity management. There are two
+parts:”Business Continuity Management. Code of Practice”, to provide guidance for the process and standard of business
+continuity in companies; “Specification for Business Continuity Management”, to describe the requirements of business
+continuity management.
+　　
+3 The Plan Of Business Continuity
+
+Business Continuity Plan is the actions to protect the company from inner and outer threatening elements and the recover
+strategy. Business Continuity Plan is to ensure that the company operates well even under the bad condition.
+
+Business Continuity Plan needs a document, including sets of documents, sets of instructions, sets of processes, which
+can point out the incidents, disasters, emergencies, threatening elements, and do reactions to them, in order to protect
+the core functions of the company go well.
+
+Business Continuity Plan includes a plan about reducing the risks, and estimate the costs of the emergencies, the
+probabilities, to ensure the company goes continuously.
+
+Business continuity plan includes five states: the design of solutions, implementation, testing, maintenance, analysis.
+
+Business continuity describe a solution about the daily business organization, and business continuity plan is to
+describe all the activities needed to complete that solution. Business continuity plan can be described as an everyone
+daily operation.
+　　
+4 The Analysis Of The Business Influence
+
+Business Influence Analysis can describe all the degrees and levels in a company, both the influences and the 
+timetables. For example, it can estimate the influences about an organization when the business functions are going 
+well. Business Influence Analysis can analysis the current activities, the influence about the core functions change,
+the influence about the new projects.
+
+Business Influence Analysis separates the functions in a company as core and not core. The core activities are those not
+allowed to stop, while the not core function are those regular activities.
+
+Business Influence Analysis is base on all the business functions about a company, it marks every business function an
+importance level. Business Influence Analysis is to collect all the information above, marks them each a level, recover
+point, recover time, so it is the foundation of business continuity.
+　　
+5 Business Continuity Management
+
+Business Continuity Management is to estimate the invisible risks of a company, and ensure all the required resources
+are supported by protecting all the key targets go smoothly. The risks include accidents, emergencies, disasters, and
+other events that stop the regular business activities. When the emergencies happens, business continuity management can
+minimize the loss and recover immediately through some necessary actions.
+
+When things go wrong, business continuity management can respond immediately and reduce the loss. The management plan
+need to be practice when necessary, dealing with the problems of people and the problems of nature.
+　　
+6 Disaster Tolerant System
+
+Disaster Tolerant System is to build many information systems in the long distance, which are act in the same way, all
+the information systems can monitor each other and swap the function. When one information system stops, it can be
+replaced by the other system, so that all the system will act normally. Disaster Tolerant System underlines the
+influence of the outside world, especially the influence of the storage points from the disaster time, it provides node
+level recovery function to the system.
+
+6.1 Disaster Tolerant System Level
+
+Disaster Tolerant System Level can be divided as data disaster tolerant system and application disaster tolerant system
+according to the protecting ability of the system. Data disaster tolerant system is to build a data system in another
+area, to store the copies of the important data in the local system. When disaster happens, the system can take place of
+the local system, so that it can ensure the business continuity. Application disaster tolerant system is higher than the
+data disaster tolerant system, it builds an entire application backup system, the same as the local system, when the
+disaster happens, the backup system will take place of the local system in order to carry on the business.
+
+6.1.1 No Backup System
+
+This system has no ability to recover, it can just backup in the local area.
+
+6.1.2 Local Tape Backup
+
+This system backup the key data locally, and save them in the backup system. When disaster happens, it recovers
+according to the plan. This plan is easy to use and cost little. But when the data becomes bigger, there is a storage
+problem of the big data, and it takes a long time to recover from the disaster. So when disaster happens, it recovers
+the key elements first, then recovers the not normal elements.
+
+6.13 Ad Hoc Beckup
+
+This system create an ad hoc in another area, and backup through the internet asynchronously. The backup system usually
+just save the data, and not to operate the business. When disaster happens, the backup system will take place of the
+local system, in order to carry on the business.
+
+6.14 Active Backup Center
+
+This system set up two data center in the long distance, and they both work, backup each other. When one of them goes
+wrong, the other will carry on the business of the other. This level can be divided into two kinds of system, one is to
+backup the data only, and the other is to backup the entire system.
+
+6.2 Disaster Tolerant Technology
+
+6.2.1 Interconnection
+
+Interconnection is based on the SAM, backup each other through fiber. When disaster happens, the backup data center will
+take place of the main data center, so that it can ensure the business continuity. This disadvantages of this kind of
+method are that it costs too much, and the local distance is not enough long.
+
+6.2.2 Flash
+
+This method is to backup the mirror of the data in the backup storage system, and flash the data in the backup storage
+system to the tapes or disks.
+
+Flash is to scan the data quickly and build a backup logic unit and cache, and copy the backup data quickly to the 
+cache. Flush LUN is a pointer, which point to the data in the cache. When the business goes smoothly, flush LUN backup
+the entire data. I can ensure that the user access the online data without disturbing the normal business. It 
+contributes to the business continuity greatly, ensure that the system can run normally 7*24.
+
+6.2.3 Distant Mirror
+
+Mirror is a copy that comes from data. Distant Mirror is the core function of backup, it is the foundation of keeping
+the distant data synchronous and recover from disasters.
+
+Synchronous distant mirror is to copy the local data synchronous to a data center in another area. When disaster 
+happens, the user application will be swap to the backup point, so that the backup system can ensure the business
+continuity. But the disadvantage is that the time delay is a bit long, so it is limited to use in systems not so far 
+in area.
+
+Asynchronous distant mirror is to transport the data to the distant backup system asynchronously, it can make less
+influence the performance of the local data system, reduce the requirement of the bandwidth, and make the transport
+distance longer. But it will lead to the problem of data inconsistency. The solution is to delay the copy of the local
+data, that is to copy the data in the local area, make sure the data is correct, then transport the data to the distant
+storage system.
+　　
+7 Disaster Tolerant Backup
+
+Data backup is to copy and store the data to ensure that the data will be available after the main copy is destroyed, it
+can recover the data to the previous status. There are two strategies: hot backup and cold backup, hot backup does not
+need to stop the system while the backup process, and the cold backup needs to stop the system while the backup process.
+
+Disaster Tolerant Backup is to ensure the business continuity. When the disks break down, or the system losses data, or
+virus breaks in, the system can recover from the backup to ensure the business continuity and minimize the loss.
+
+7.1 Data Backup Model
+
+7.1.1 Unstructured Model
+
+Unstructured model is a bunk of disks, it is the simplest model.
+
+7.1.2 System Mirror Model
+
+System Mirror Model includes the entire mirror of the main storage system at one exactly time period. It is a good
+backup model.
+
+7.1.3 Incremental Model
+
+Incremental model is to create backup point at different time periods, it is flexible. It backup only the changed data
+so that it reduces the total backup data.
+
+7.2 Data Backup Granularity
+
+The granularity of backup is depended on the data. If the granularity is big, then it needs more time to backup, and it
+needs less time to recover. If the granularity is small, then it needs less time to backup, but it needs more time to
+recover.
+
+8 Disaster Recovery
+
+Disaster Recovery is a process, strategy and method to recover from the backup in order to overcome the difficulties of
+nature disasters or human disasters. Disaster Recovery is a subset of business continuity. 
+
+8.1 Single Point Failure
+
+HBA Failure: one can configure more HBAs, and use multi-access software to prevent the failure of HBA, in order to
+improve the performance.
+
+Port Failure: one can configure more ports to increase the usability.
+
+Disk Failure: one can use RAID to prevent the disk failure.
+
+Host Failure: one can use cluster to prevent the host failure.
+
+Solid State Disk Failure: one can use distant backup to prevent solid state disk failure.
+
+8.2 Disaster Recovery Indicator
+
+The two important measurement of disaster recovery are recovery target indicator and recovery time indicator.
+
+Recovery Point Objective (RPO) is the recovery point indicator, it measures the tolerance of the loss of data in the
+system, it is about the loss of data.
+
+Recovery Time Objective (RTO) is the recovery time indicator, it measures the tolerance of the business failure time,
+that is to say, the minimum time period between the business failure and the recovery, it is about the loss of service.
+
+8.3 Disaster Recovery Strategy
+
+First, the planner of the recovery should read the business continuity plan, knows the recovery target indicator and the
+recovery time indicator, then creates the best recovery strategies for each of the system.
+
+8.3.1 Prevent Strategy
+
+One can copy the data backup to tapes periodically. One can also copy the data to disks automatically in local area or
+to other disks. One can copy the data to another system, it usually requires SAN technology. One can build a mirror
+system, such as RAID. One can use the battery protecting configuration to minimize the loss caused by the unstable
+voltage. When the battery comes into failure, one can use backup electronic producer to carry on the business system.
+Fire extinguishers and fire alarms can be used to minimize the loss caused by fire, anti-virus softwares can protect the
+system from virus attack.
+
+8.3.2 Regular Exercise
+
+One can do regular exercise according to the disaster recovery plan, in order to make improvement of the usability of
+the plan. The manager should think about the potential threatening elements covered inside the plan and those beyond the
+plan, in order to estimate the usability of the regular exercise. The company can train the faculties to be ready for
+emergencies.
+
+Disaster recovery plan includes the selection of members when disasters happens. The members selected must be capable to
+carry on the recovery mission during the emergency. These members should be train during the regular exercise.
+
+The leader of the disaster recovery plan should be responsibility, has leadership, knows well about the company, has
+powerful management skills, know much about the information technology and data security. The other members in the
+disaster recovery plan should have good understanding and implementation.
+
+The manager should train the disaster recovery team regularly, and evaluate the abilities of all the members in the 
+team.
+　　
+9 Conclusion
+
+9.1 Concept Review
+
+Business continuity is a solution to ensure the company operate correctly under every condition. One can build a remote
+data system or application system, when the local system goes wrong, the remote system will take place of the local one
+and carry on its job, so that the business goes smoothly.
+
+9.2 Ultimate Goal
+
+The goal of business continuity is to shorten the disaster recovery time period, and the ultimate goal is to eliminate
+the disaster recovery time period. Using the mirrors to copy data to remote data system, and use flash to backup the
+data in the remote data system to the tapes or disks. Flash is to use software to backup the data in the system quickly,
+and build a backup logic unit LUN and cache, copy the data to the cache. Flush LUN is a pointer, which point to the data
+in the cache and the disk system. When the system goes smoothly, the flash LUN can create an entire backup. It can be
+done without affecting the user to get access to the online data in this system, which strengthen the ability of
+business continuity, make the system works 7*24. Using the remote mirror technology and the flash technology combined,
+one can approach the ultimate goal of business continuity.
+
+9.3 Developing Trend
+
+The most important feature of business continuity is data storage center, and the energy consumption of data storage
+center is a key point. The challenge is how to control the energy consumption, and how to save energy, that is an
+important key feature to promote business continuity.
+
+The methods to reduce the energy consumption of data storage center are: one can use the virtual technology, that is to
+say, to create many virtual systems on one physical system, that can improve the service efficiency. One can use the
+hierarchy storage technology to store data of different life periods to different levels of storage medium. One can
+assign the storage space dynamically, to build a shared storage pool, it can prevent the loss of large amount of storage
+space when data is stored statically. One can delete the redundant data in the storage system, using both hardware and
+software technology. One can modularize the storage system in order to improve the building speed of the storage system,
+and at the same time, it can reduce the energy consumption.
+
+Energy consumption is a global problem, and business continuity is going to support the development of green storage,
+which can create a world of low energy cost data storage center.
+
+10 Reference
+
+[1] Gibson G A, Van Meter R. Network attached storage architecture[J]. Communications of the ACM, 2000, 43(11): 37-45.
+
+[2] Plank J S, Beck M, Elwasif W R, et al. The internet backplane protocol: Storage in the network[C]//In Proceedings of
+the Network Storage Symposium. 1999.
+
+[3] Nguyen T, Raymond R M, Leonhardt M L. Network attached virtual data storage subsystem: U.S. Patent 6,658,526[P].
+2003-12-2.
+
+[4] Anderson D C, Chase J S, Vahdat A M. Interposed request routing for scalable network storage[C]//Proceedings of the
+4th conference on Symposium on Operating System Design & Implementation-Volume 4. USENIX Association, 2000: 18-18.
+
+[5] Beck M, Moore T, Plank J S. An end-to-end approach to globally scalable network storage[C]//ACM SIGCOMM Computer
+Communication Review. ACM, 2002, 32(4): 339-346.
+
+[6] Cumpston B H, Ananthavel S P, Barlow S, et al. Two-photon polymerization initiators for three-dimensional optical
+data storage and microfabrication[J]. Nature, 1999, 398(6722): 51-54.
+
+[7] Betzig E, Trautman J K, Wolfe R, et al. Near‐field magneto‐optics and high density data storage[J]. Applied P
+hysics Letters, 1992, 61(2): 142-144.
+
+[8] Strickler J H, Webb W W. Three-dimensional optical data storage in refractive media by two-photon point 
+excitation[J]. Optics Letters, 1991, 16(22): 1780-1782.
+
+[9] Coufal H J, Sincerbox G T, Psaltis D. Holographic data storage[M]. Springer-Verlag New York, Inc., 2000.
+
+[10] Kawata S, Kawata Y. Three-dimensional optical data storage using photochromic materials[J]. Chemical Reviews, 2000,
+100(5): 1777-1788.
+
+[11] Lee E K. Highly-available, scalable network storage[C]//Compcon'95.'Technologies for the Information Superhighway',
+Digest of Papers. IEEE, 1995: 397-402.
+
+[12] Soltis S R, Major Adviser-O'Keefe M. The design and implementation of a distributed file system based on shared
+network storage[M]. University of Minnesota, 1997.
+
+[13] Xu J, Tang X, Lee W C. EASE: an energy-efficient in-network storage scheme for object tracking in sensor 
+networks[C]//SECON. 2005: 396-405.
+
+[14] Soltis S, Erickson G, Preslan K. The Design and Performance Of a Shared Disk..[C]//IN THE SIXTH GODDARD CONFERENCE
+ON MASS STORAGE SYSTEMS AND TECHNOLOGIES IN COOPERATION WITH THE FIFTEENTH IEEE SYMPOSIUM ON MASS STORAGE SYSTEMS. 
+1998.
+
+[15] Coates J L, Bozeman P E. Dynamic replication of files in a network storage system: U.S. Patent 7,203,731[P]. 
+2007-4-10.
+
+[16] Terris B D, Mamin H J, Rugar D. Near‐field optical data storage[J]. Applied Physics Letters, 1996, 68(2): 141-143.
+
+[17] Ofek Y. Bundling of write data from channel commands in a command chain for transmission over a data link between
+data storage systems for remote data mirroring: U.S. Patent 5,901,327[P]. 1999-5-4.
+
+[18] Gnadinger A P. High density data storage using stacked wafers: U.S. Patent 5,229,647[P]. 1993-7-20.
+
+[19] Pudavar H E, Joshi M P, Prasad P N, et al. High-density three-dimensional optical data storage in a stacked 
+compact disk format with two-photon writing and single photon readout[J]. Applied physics letters, 1999, 74(9): 
+1338-1340.
+
+[20] Lampson B, Sturgis H. Crash recovery in a distributed data storage system[M]. Palo Alto, California: Xerox Palo
+Alto Research Center, 1979.
